@@ -77,7 +77,7 @@ def modificar_pys(pys):
         elif opcion == 5:
             pys.fecha_estreno = input("Ingrese la nueva fecha de estreno (YYYY-MM-DD): ")
         elif opcion == 6:
-            pys.valoracion = float(input("Ingrese la nueva valoración de usuarios: "))
+            pys.valoracion = int(input("Ingrese la nueva valoración de usuarios: "))
         else:
             print("Opción inválida.")
     else:
